@@ -8,47 +8,35 @@ html, body {
 }
 
 body {
-    background: #FCEDF0;  
+    background: #fff9fa;  
     font-size: 100%;
 }
 
-header {
-    height: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
+header {}
 
 header h1 {
-    font-size: 3em;
-    justify-content: left;
+    font-size: 2.5em;
     margin: 5px;;
     color: #efc7c7;
     padding: 0.3em;
+    padding-left: 1em;
     font-family: 'Parisienne', cursive;
-    height: 3%;
 }
 
-header img {
-    width: 100%; 
-    height: 87%;
+#family-photo {
+    width: 100%;
+    object-fit: scale-down;
 }
 
 header nav {
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-decoration-color: #94c7af;
-    justify-content: space-between;
     font-family: 'Barlow Condensed', sans-serif;
-    height: 3%;
-    padding: 1.2em;
+    padding: 1em;
 }
 
 #Home, #Projects, #Contact {
     padding: 0.75em;
-}
-
-header nav h1 {
-    flex-direction: row;
 }
 
 section {
@@ -73,7 +61,8 @@ footer {
     font-size: 2em;
     text-align: center;
     padding: 10px;
-    color: #94c7af;
+    color: #efc7c7;
+    font-family: 'Parisienne', cursive;
 }
 
 #links {
@@ -83,6 +72,7 @@ footer {
 
 #LinkedIn, #GitHub {
     padding: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 
