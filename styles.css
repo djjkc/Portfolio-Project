@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    background: #FCEDF0;  
+    font-size: 100%;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 3em;
+    justify-content: left;
+    margin: 5px;;
+    color: #efc7c7;
+    padding: 0.3em;
+    font-family: 'Parisienne', cursive;
+    height: 3%;
+}
+
+header img {
+    width: 100%; 
+    height: 87%;
+}
+
+header nav {
+    font-size: 1.5em;
+    text-decoration-color: #94c7af;
+    justify-content: space-between;
+    font-family: 'Barlow Condensed', sans-serif;
+    height: 3%;
+    padding: 1.2em;
+}
+
+#Home, #Projects, #Contact {
+    padding: 0.75em;
+}
+
+header nav h1 {
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding-right: 5em;
+}
+
+.portrait{
+    width: 20%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+footer {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    color: #94c7af;
+}
+
+#links {
+    display:center;
+    padding-top: 10px;
+}
+
+#LinkedIn, #GitHub {
+    padding: 50px;
+}
+
+
+
+
+
+/* Phone View */
+@media screen and (max-width: 480px) {
+
+    }
+
+
