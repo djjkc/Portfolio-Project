@@ -17,7 +17,7 @@ header {}
 header h1 {
     font-size: 2.5em;
     margin: 5px;;
-    color: #efc7c7;
+    color: #E9BCBF;
     padding: 0.3em;
     padding-left: 1em;
     font-family: 'Parisienne', cursive;
@@ -29,7 +29,7 @@ header h1 {
 }
 
 header nav {
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-decoration-color: #94c7af;
     font-family: 'Barlow Condensed', sans-serif;
     padding: 1em;
@@ -39,12 +39,13 @@ header nav {
     padding: 0.75em;
 }
 
-section {
+.about-me {
+    padding: 5em;
     display: flex;
     justify-content: center;
-    padding: 5em;
 }
-section div {
+
+#abouttext {
     display: flex;
     flex-direction: column;
     font-size: 2em;
@@ -57,8 +58,84 @@ section div {
     border-radius: 8px;
 }
 
+/* PROJECTS */
+#projects{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: 32%;
+    padding-bottom: 32%; /* Same as width, sets height */
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    position: relative;
+}
+
+
+
+/* CONTACT ME */
+#contactme{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #94c7af;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #94c7af;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 2px solid #F0F7F4;
+    background-color: #D9EBE2;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form-item button:hover {
+    border: 2px solid #94c7af;
+    background-color: #D9EBE2;
+    color: #94c7af;
+    font-weight:900;
+    font-size: 0.5em;
+}
+
+.form-item button {
+    width: 100px;
+}
+
+
 footer {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     padding: 10px;
     color: #efc7c7;
@@ -68,11 +145,13 @@ footer {
 #links {
     display:center;
     padding-top: 10px;
+    font-size: 0.75em;
 }
 
 #LinkedIn, #GitHub {
     padding: 50px;
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.75em;
 }
 
 
