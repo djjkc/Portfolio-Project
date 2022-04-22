@@ -176,25 +176,23 @@ form {
     width: 150px;
 }
 
-
 footer {
     font-size: 2.5vw;
     text-align: center;
-    padding: 10px;
     color: #efc7c7;
     font-family: 'Parisienne', cursive;
 }
 
 #links {
-    display:center;
     padding-top: 10px;
-    font-size: 0.75em;
 }
 
-#LinkedIn, #GitHub {
-    padding: 50px;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.75em;
+#LinkedIn {
+    object-fit: contain;
+} 
+
+#GitHub {
+    font-size: 10vw;
 }
 
 
