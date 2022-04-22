@@ -12,7 +12,11 @@ body {
     font-size: 100%;
 }
 
-header {}
+header {
+    display: flex;
+    justify-content: space-between; 
+    font-size: 2vw;
+}
 
 header h1 {
     font-size: 2.5em;
@@ -34,6 +38,27 @@ header nav {
     font-family: 'Barlow Condensed', sans-serif;
     padding: 1em;
 }
+
+.hero {
+
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.207), rgba(0, 0, 0, 0.208)), url("https://raw.githubusercontent.com/bel-lloyd/my-files/master/Family%20Widescreen1.jpg");
+    height: 75vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+
+}
+
+.hero-content {
+
+}
+
 
 #Home, #Projects, #Contact {
     padding: 0.75em;
@@ -163,14 +188,13 @@ footer {
     font-size: 0.75em;
 }
 
-
+/* HERO SECTION */
 
 
 
 /* Phone View */
 @media screen and (max-width: 480px) {
-
-    }
+    
 
 
  @media (max-width: 600px) {
