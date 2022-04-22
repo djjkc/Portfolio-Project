@@ -57,19 +57,18 @@ header nav {
 }
 
 .hero-text {
-    
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    padding-left: 5vw;
 }
 
 .hero-content {
-    display: flex;
     font-size: 4.5vw;
     color: #f4eced;
     font-family: 'Parisienne', cursive;
-    justify-content: center;
-    align-items: center;
+
 }
-
-
 
 .about-me {
     padding: 5em;
@@ -105,13 +104,11 @@ header nav {
 
 .item {
     width: 30%;
-    /* padding-bottom: 30%; Same as width, sets height */
-    margin-bottom: 2%; /* (100-32*3)/2 */
+    margin-bottom: 2%; 
     position: relative;
     text-align: center;
     border: 2px solid #94c7af;
     border-radius: 8px;
-    img
 }
 
 .responsive {
@@ -177,23 +174,22 @@ form {
 }
 
 footer {
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: center;
     color: #efc7c7;
     font-family: 'Parisienne', cursive;
 }
 
 #links {
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-#LinkedIn {
-    object-fit: contain;
+#linkedinimg, #GitHubImg  {
+    width: 3vw;
+    height:auto;
+    padding: 15px;
 } 
-
-#GitHub {
-    font-size: 10vw;
-}
 
 
 /* Phone View */
