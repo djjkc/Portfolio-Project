@@ -15,7 +15,6 @@ body {
 header {
     display: flex;
     justify-content: space-between; 
-    font-size: 2vw;
 }
 
 header h1 {
@@ -34,9 +33,14 @@ header h1 {
 
 header nav {
     font-size: 2.5vw;
-    text-decoration-color: #94c7af;
+
     font-family: 'Barlow Condensed', sans-serif;
     padding: 1em;
+}
+
+#Home, #Projects, #Contact {
+    padding: 0.75em;
+    color: #94c7af;
 }
 
 /* HERO SECTION */
@@ -63,13 +67,9 @@ header nav {
     font-family: 'Parisienne', cursive;
     justify-content: center;
     align-items: center;
-
 }
 
 
-#Home, #Projects, #Contact {
-    padding: 0.75em;
-}
 
 .about-me {
     padding: 5em;
