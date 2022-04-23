@@ -17,6 +17,10 @@ header {
     justify-content: space-between; 
 }
 
+a {
+    text-decoration-line: none;
+}
+
 header h1 {
     font-size: 3.5vw;
     margin: 5px;;
@@ -24,6 +28,7 @@ header h1 {
     padding: 0.3em;
     padding-left: 1em;
     font-family: 'Parisienne', cursive;
+
 }
 
 #family-photo {
@@ -156,8 +161,8 @@ form {
 .form-item button {
     border: 2px solid #F0F7F4;
     background-color: #D9EBE2;
-    padding: 5px;
-    font-size: 18px;
+    padding: 0.25%;
+    font-size: 75%;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -170,7 +175,7 @@ form {
 }
 
 .form-item button {
-    width: 150px;
+    width: 10%;
 }
 
 footer {
