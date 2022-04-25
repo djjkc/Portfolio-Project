@@ -94,6 +94,7 @@ header nav {
 
 .portrait{
     width: 200px;
+    height: 400px;
     border-radius: 8px;
 }
 
@@ -199,25 +200,21 @@ footer {
     padding: 15px;
 } 
 
-@media screen and (max-width: 320px) {
+#tech-share-img {
+    width: 3vw;
+    height: auto;
+    padding: 15px;
+}
+
+@media screen and (max-width: 400px) {
     .hero-content h2{
         font-size: 70px;
         word-wrap: break-word;
     }
+
     .about-me {
         padding: 10%;
-    }
-}   
-
-/* Phone View */
-@media screen and (max-width: 800px) {
-    .about-me {
         display: inline-block;
-    }
-
-    .portrait {
-        min-width: 5%;
-        max-width: 15%;
     }
 
     .container{
@@ -228,9 +225,43 @@ footer {
         width:100%;
     }
 
-    .hero-content h2{
-        font-size: 120px;
+    .portrait {
+        max-width: 60%;
+        height: auto;
+    }
+
+}   
+
+/* Phone View */
+@media screen and (min-width:400px) and (max-width: 800px) {
+    .about-me {
+        display: inline-flex;
+    }
+
+    .portrait {
+        max-width: 50vw;
+        max-height: 50vw;
+    }
+
+    .hero-content h2 {
+        font-size: 70px;
         word-wrap: break-word;
     }
 
+}
+
+@media screen and (min-width: 801px) {
+    .about-me {
+        display: inline-flex;
+    }
+
+    .portrait {
+        min-width: 30vw;
+        height: auto;
+    }
+
+    .hero-content h2{
+        font-size: 200px;
+        word-wrap: break-word;
+    }
 }
