@@ -8,7 +8,7 @@ This is my first ever html & css Portfolio, made for SheCodes 2022. It was fun t
 Ali - The Portrait photo not adjusting how I want with Media Queries is slowly killing me...but it's ok for now...until I learn more!
 
 
-## Dad Jokes to help make you marking more enjoyable :)
+## Dad Jokes to help make your marking more enjoyable :)
 
 - I'm afraid for the calendar. Its days are numbered.
 - Singing in the shower is fun until you get soap in your mouth. Then it's a soap opera.
